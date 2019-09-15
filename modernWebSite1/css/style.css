@@ -1,0 +1,105 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    box-shadow: 1px 1px 3px black !important;
+    opacity: 0.9;
+}
+
+.navbar .nav-link{
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.navbar-nav .active {
+    border-left: 1px solid lightgray;
+}
+
+#crs, #about-header, #services-header, #contact-header{
+    margin-top: 55px;
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-image-1{
+    background: url("../img/adult-business-computer.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background: url("../img/beverage-cellphone-computer.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background: url("../img/adults-blond-hair-chairs.jpg");
+    background-size: cover;
+}
+
+.carousel-caption h1{
+    text-shadow: 2px 2px 1px black !important;
+}
+
+.carousel-caption p{
+    text-shadow: 1px 1px 1px black !important;
+}
+
+#section3{
+    position: relative;
+    background-image: url("../img/backlight-black-blackwidow.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gallery{
+    position: relative;
+    background-image: url("../img/blue-close-up-computer-keyboard.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay-dark{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#about-header{
+    position: relative;
+    background-image: url("../img/adult-business-computer.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#services-header{
+    position: relative;
+    background-image: url("../img/business-busy-chair.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -150px;
+}
+
+#contact-header{
+    position: relative;
+    background-image: url("../img/app-business-computer.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -150px;
+}
+
+
+
+
